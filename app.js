@@ -114,7 +114,7 @@ const buildTile = (pokemon) => {
 
             if (revealedCount === tileCount) {
                 // You win logic here
-                alert("You Win! Refresh to play again.") // Display a "You Win" message instead of alert
+                alert("You Win! Refresh to play again.") 
             }
             return;
         }
@@ -124,7 +124,7 @@ const buildTile = (pokemon) => {
             element.classList.remove("revealed");
             element.style.border = '';  // Reset the border color
             activeTile.classList.remove("revealed");
-            activeTile.style.border = '';  // Reset the border color
+            activeTile.style.border = '';  
 
             awaitingEndOfMove = false;
             activeTile = null;
