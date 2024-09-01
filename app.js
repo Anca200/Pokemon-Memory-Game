@@ -96,8 +96,7 @@ const buildTile = (pokemon) => {
 
         // Reveal Pokémon image and name, and apply border color
         element.classList.add("revealed");
-        element.style.border = `2px solid ${color}`; // Apply border color based on type
-
+        element.style.border = `2px solid  ${color}`; 
         if (!activeTile) {
             activeTile = element;
             return;
